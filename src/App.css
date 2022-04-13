@@ -6,6 +6,69 @@
   height: 40vmin;
   pointer-events: none;
 }
+.home{
+  background: #f4f4f4;
+  height: 625px;
+
+}
+.about{
+  width: 100%;
+  background: rgb(220, 78, 78);
+  height: 284px;
+  text-align: center;
+
+}
+
+#image_id{
+  justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 263px;
+    margin-top: 154px;
+}
+
+.projects{
+  width: 100%;
+  background: rgb(98, 46, 167);
+  height: 284px;
+  text-align: center;
+}
+.contact{
+  width: 100%;
+  background: rgb(18, 198, 93);
+  height: 284px;
+  text-align: center;
+}
+.training{
+  width: 100%;
+  background: rgb(18, 198, 93);
+  height: 284px;
+  text-align: center;
+
+}
+.center{
+  background: rgb(230, 188, 188);
+  list-style: none;
+  text-decoration: none;
+  width: 100%;
+  height: 98px;
+}
+.center a{
+  text-decoration: none;
+  color: rgb(191, 21, 57);
+  font-size: 20px;
+  padding: 7px;
+  padding-top: 54px;
+  background-color: #61dafb;
+  transition: all .5s linear;
+
+}
+
+.center a:hover{
+  background-color: yellowgreen;
+  color: black;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +98,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html{
+  scroll-behavior: smooth;
 }
